@@ -1,6 +1,6 @@
 package com.swmansion4.reanimated;
 
-import static com.swmansion.reanimated.Utils.simplifyStringNumbersList;
+import static com.swmansion4.reanimated.Utils.simplifyStringNumbersList;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;
