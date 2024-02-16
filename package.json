@@ -29,7 +29,6 @@
     "type:check:tests:0.72+": "./scripts/test-ts.sh __typetests__/0.72+",
     "type:check:tests:legacy": "./scripts/test-ts.sh __typetests__/legacy",
     "type:check:all": "yarn type:check:src && yarn type:check:plugin && ./scripts/test-ts.sh app/src/App.tsx __typetests__/common __typetests__/0.72+ __typetests__/legacy",
-    "prepare": "yarn plugin && bob build && husky install && yarn app",
     "circular_dependency_check": "yarn madge --extensions js,ts,tsx --circular src lib",
     "use_strict_check": "node ./scripts/validate-use-strict.js",
     "setup": "yarn && cd Example && yarn && cd ios && pod install --verbose && cd ../..",
