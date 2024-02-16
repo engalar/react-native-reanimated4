@@ -8,7 +8,7 @@ package com.facebook.react.uimanager;
  * onto the shadow view hierarchy. Otherwise we want to trigger "dispatchViewUpdates" and enforce
  * flush immediately.
  */
-public class UIManagerReanimatedHelper {
+public class UIManagerReanimatedHelper4 {
   public static boolean isOperationQueueEmpty(UIImplementation uiImplementation) {
     return uiImplementation.getUIViewOperationQueue().isEmpty();
   }

@@ -22,7 +22,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ReanimatedPackage extends TurboReactPackage implements ReactPackage {
+public class ReanimatedPackage4 extends TurboReactPackage implements ReactPackage {
 
   @Override
   public NativeModule getModule(String name, ReactApplicationContext reactContext) {

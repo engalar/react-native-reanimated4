@@ -22,7 +22,7 @@ import com.facebook.react.uimanager.ReactShadowNode;
 import com.facebook.react.uimanager.ReactStylesDiffMap;
 import com.facebook.react.uimanager.UIImplementation;
 import com.facebook.react.uimanager.UIManagerModule;
-import com.facebook.react.uimanager.UIManagerReanimatedHelper;
+import com.facebook.react.uimanager.UIManagerReanimatedHelper4;
 import com.facebook.react.uimanager.events.Event;
 import com.facebook.react.uimanager.events.EventDispatcherListener;
 import com.facebook.react.uimanager.events.RCTEventEmitter;
@@ -218,7 +218,7 @@ public class NodesManager implements EventDispatcherListener {
             @Override
             public void runGuarded() {
               boolean queueWasEmpty =
-                  UIManagerReanimatedHelper.isOperationQueueEmpty(mUIImplementation);
+                  UIManagerReanimatedHelper4.isOperationQueueEmpty(mUIImplementation);
               boolean shouldDispatchUpdates = trySynchronously && queueWasEmpty;
               if (!shouldDispatchUpdates) {
                 semaphore.release();
