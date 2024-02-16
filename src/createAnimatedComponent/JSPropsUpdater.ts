@@ -27,7 +27,7 @@ class JSPropsUpdaterPaper implements IJSPropsUpdater {
 
   constructor() {
     this._reanimatedEventEmitter = new NativeEventEmitter(
-      NativeModules.ReanimatedModule
+      NativeModules.ReanimatedModule4
     );
   }
 

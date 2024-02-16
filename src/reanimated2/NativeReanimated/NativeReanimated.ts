@@ -90,9 +90,9 @@ export class NativeReanimated {
     }
     global._REANIMATED_VERSION_JS = jsVersion;
     if (global.__reanimatedModuleProxy === undefined) {
-      const { ReanimatedModule } = NativeModules;
+      const { ReanimatedModule4 } = NativeModules;
       const valueUnpackerCode = getValueUnpackerCode();
-      ReanimatedModule?.installTurboModule(valueUnpackerCode);
+      ReanimatedModule4?.installTurboModule(valueUnpackerCode);
     }
     if (global.__reanimatedModuleProxy === undefined) {
       throw new Error(
